@@ -366,10 +366,3 @@ Potential production enhancements include:
 
 ---
 
-# Author
-
-**Navnita Naresh Singh**
-
-B.Tech Computer Science Engineering (Mathematics & Computing)
-
-Netaji Subhas University of Technology (NSUT)
