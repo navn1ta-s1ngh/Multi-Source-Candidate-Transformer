@@ -245,31 +245,69 @@ This demonstrates runtime-configurable output using the same transformation pipe
 
 # Running the Project
 
-Install dependencies:
+## 1. Clone the repository
 
 ```bash
+git clone https://github.com/navn1ta-s1ngh/Multi-Source-Candidate-Transformer.git
+cd Multi-Source-Candidate-Transformer
+```
+
+## 2. Create a virtual environment
+
+### Windows
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+### macOS / Linux
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+## 3. Install dependencies
+
+```bash
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Execute the pipeline:
+## 4. Prepare the input files
+
+Place the following files inside the `input/` directory:
+
+```
+input/
+├── ats.json
+├── resume.pdf
+├── linkedin.txt
+└── recruiter_notes.txt
+```
+
+Example input files are included in this repository.
+
+## 5. Execute the pipeline
 
 ```bash
 python main.py
 ```
 
-The pipeline:
+(If `python` is not available, use `python3 main.py`.)
 
-- Parses all input sources
-- Executes every processing engine
-- Validates the generated output
-- Produces:
+## 6. Generated outputs
+
+The pipeline executes all transformation engines and generates:
 
 ```
-output/default_candidate.json
-output/recruiter_view.json
+output/
+├── default_candidate.json
+└── recruiter_view.json
 ```
 
----
+During execution, the terminal displays the status of each processing engine along with schema validation results.
 
 # Example Outputs
 
