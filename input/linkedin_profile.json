@@ -1,0 +1,26 @@
+{
+    "fullName": "Navnita Naresh Singh",
+    "headline": "Computer Science Student",
+    "location": "New Delhi, India",
+
+    "skills": [
+        "Python",
+        "Machine Learning",
+        "SQL",
+        "C++"
+    ],
+
+    "experience": [
+        {
+            "company": "ABC Technologies",
+            "role": "Software Engineering Intern"
+        }
+    ],
+
+    "education": [
+        {
+            "institution": "Netaji Subhas University of Technology",
+            "degree": "B.Tech CSE (MAC)"
+        }
+    ]
+}

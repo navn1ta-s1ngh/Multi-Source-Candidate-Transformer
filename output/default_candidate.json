@@ -1,0 +1,92 @@
+{
+    "candidate_id": "C001",
+    "full_name": "Navnita Naresh Singh",
+    "headline": "Computer Science Student",
+    "emails": [
+        "navnita.naresh.ug23@nsut.ac.in"
+    ],
+    "phones": [
+        "+919876543210"
+    ],
+    "location": "New Delhi, India",
+    "links": {
+        "linkedin": "https://www.linkedin.com/in/example-profile"
+    },
+    "skills": [
+        "C++",
+        "Machine Learning",
+        "Python",
+        "SQL"
+    ],
+    "experience": [
+        {
+            "company": "ABC Technologies",
+            "role": "Software Engineering Intern"
+        },
+        {
+            "company": "ABC Technologies",
+            "role": "Software Engineering Intern",
+            "startDate": "2025-05",
+            "endDate": "2025-07"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Netaji Subhas University of Technology",
+            "degree": "B.Tech CSE (MAC)"
+        },
+        {
+            "institution": "Netaji Subhas University of Technology",
+            "degree": "B.Tech CSE (MAC)",
+            "graduationYear": 2027
+        }
+    ],
+    "field_confidence": {
+        "full_name": 0.7,
+        "headline": 0.7,
+        "location": 0.7,
+        "candidate_id": 0.7,
+        "emails": 0.7,
+        "phones": 0.7,
+        "links": 0.7,
+        "skills": 0.95,
+        "experience": 0.85,
+        "education": 0.85
+    },
+    "field_sources": {
+        "full_name": [
+            "LinkedIn"
+        ],
+        "headline": [
+            "LinkedIn"
+        ],
+        "location": [
+            "LinkedIn"
+        ],
+        "candidate_id": [
+            "ATS"
+        ],
+        "emails": [
+            "ATS"
+        ],
+        "phones": [
+            "ATS"
+        ],
+        "links": [
+            "LinkedIn"
+        ],
+        "skills": [
+            "ATS",
+            "LinkedIn",
+            "Recruiter Notes"
+        ],
+        "experience": [
+            "ATS",
+            "LinkedIn"
+        ],
+        "education": [
+            "ATS",
+            "LinkedIn"
+        ]
+    }
+}

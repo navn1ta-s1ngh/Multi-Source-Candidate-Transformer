@@ -1,0 +1,34 @@
+{
+    "candidateId": "C001",
+    "candidateName": "Navnita Naresh Singh",
+    "headline": "Computer Science Student",
+
+    "primaryEmail": "navnita.naresh.ug23@nsut.ac.in",
+    "primaryPhone": "9876543210",
+
+    "location": "New Delhi, India",
+
+    "skills": [
+        "Python",
+        "C++",
+        "Machine Learning",
+        "SQL"
+    ],
+
+    "experience": [
+        {
+            "company": "ABC Technologies",
+            "role": "Software Engineering Intern",
+            "startDate": "2025-05",
+            "endDate": "2025-07"
+        }
+    ],
+
+    "education": [
+        {
+            "institution": "Netaji Subhas University of Technology",
+            "degree": "B.Tech CSE (MAC)",
+            "graduationYear": 2027
+        }
+    ]
+}

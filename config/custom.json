@@ -1,0 +1,9 @@
+{
+    "fields": [
+        "full_name",
+        "headline",
+        "emails",
+        "skills",
+        "field_confidence"
+    ]
+}

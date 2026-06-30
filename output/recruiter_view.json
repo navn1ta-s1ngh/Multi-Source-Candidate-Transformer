@@ -1,0 +1,25 @@
+{
+    "full_name": "Navnita Naresh Singh",
+    "headline": "Computer Science Student",
+    "emails": [
+        "navnita.naresh.ug23@nsut.ac.in"
+    ],
+    "skills": [
+        "C++",
+        "Machine Learning",
+        "Python",
+        "SQL"
+    ],
+    "field_confidence": {
+        "full_name": 0.7,
+        "headline": 0.7,
+        "location": 0.7,
+        "candidate_id": 0.7,
+        "emails": 0.7,
+        "phones": 0.7,
+        "links": 0.7,
+        "skills": 0.95,
+        "experience": 0.85,
+        "education": 0.85
+    }
+}
